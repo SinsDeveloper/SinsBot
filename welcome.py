@@ -23,7 +23,7 @@ intents = discord.Intents.default()
 intents.members = True
 
 client = WelcomeClient(intents=intents)
-client.run('ODc2NTYzMTI3ODI5OTIxODAz.YRl5Bw.QgJtpX34pKzP1MaorSkUPH-mmxs')
+client.run('token here')
 
 
 

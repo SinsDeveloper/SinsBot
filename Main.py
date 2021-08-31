@@ -119,13 +119,6 @@ if os.path.exists(os.getcwd() + "./config.json"):
     with open('./config.json') as f:
         configData = json.load(f)
 
-@client.command()
-async def test(ctx,*, args):
-        if '<@' in args or '@everyone' in args:
-            await ctx.send(f'please use the bot normally without any abuse <@{ctx.message.author.id}>')
-        else:
-            await ctx.send(args)
-
-token = 'ODc2NTYzMTI3ODI5OTIxODAz.YRl5Bw.QgJtpX34pKzP1MaorSkUPH-mmxs'
+token = 'token here'
 
 client.run(token)
