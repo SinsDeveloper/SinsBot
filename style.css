@@ -45,11 +45,6 @@ a{
   text-decoration: none;
   font-family: Verdana;
   font-size: 1.2vw;
-  
-a:hover{
-  color: #F0c330;
-  transition: 0.5s;
-  transition-delay: 0.1s;
 }
   
 img {
